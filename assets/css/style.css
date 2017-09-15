@@ -1,0 +1,100 @@
+.jumbotron {
+    margin: 50px 0 50px 0;
+    border-color: grey!important;
+}
+
+body {
+    background: #50545a;
+    background-image: url(../images/backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*color: #fff;*/
+    font-weight: 400;
+    font-size: 1.25em;
+    font-family: 'Raleway', Arial, sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: 590px;
+}
+
+.ui-autocomplete {
+    border-radius: 0px;
+    font-family: 'Raleway', Arial, sans-serif!important;
+}
+
+.error {
+    color: red;
+    font-size: large;
+}
+
+
+
+
+}
+.stylish-input-group .input-group-addon {
+    background: white !important;
+}
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
+}
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
+}
+.poster {
+
+    margin: 10px 0 10px 0!important;
+    border-style: solid!important;
+    width: 220px;
+}
+
+.input-group {
+    width: 450px!important;
+    margin: 0 auto;
+}
+.lead {
+    text-align: center;
+}
+.form-group,
+{
+    text-align: center;
+}
+
+.clear {
+    clear: both!important;
+    margin: 2px!important;
+}
+.btn-primary {
+    margin: 0 0 0 75px;
+}
+
+
+.movie-released,
+.movie-title {
+    font-size: 2em!important;
+}
+.movie-plot {
+    font-size: 1.5em!important;
+}
+
+.panel-body {
+    background-color: #eee!important;
+}
+
+.panel-heading {
+    color: #fff!important;
+    background-color: #2c2c2c!important;
+    text-align: center!important;
+    font-size: 1.5em!important;
+}
+
+.panel-primary {
+    border-color: grey!important;
+}
+
+.head-h1 {
+    text-align: center!important;
+    margin-bottom: 50px!important;
+}

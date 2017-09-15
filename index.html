@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The movieCache</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- JQuery UI  -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron row">
+                    <div class="form-group">
+                        <h1 class="head-h1">movieCache</h1>
+                        <p class="lead">The place to search for all types of cool movie stuff..</p>
+                        <form id="movie-form">
+                            <div class="input-group input-group-lg stylish-input-group">
+                                <input type="text" id='movie-input' class="form-control" placeholder="Cache me outside..." required="true" autofocus>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of jumbotron row-->
+        <!-- Poster div -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary" id="poster-panel">
+                    <div class="panel-heading"><strong>Movie Info</strong></div>
+                    <div class="panel-body  movie-results" id="posters"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Trailer div -->
+        <div class="row main-videos table-row">
+            <div class="col-md-8">
+
+                <div class="panel panel-primary" id="trailer-panel">
+                    <div class="panel-heading"><strong>Movie Trailer</strong></div>
+                    <div class="panel-body" id="trailers"></div>
+                </div>
+            </div>
+            <!-- Recomendations div -->
+ 
+            <div class="col-md-4">
+                <div class="panel panel-primary clearfix" id="recomendation-panel">
+                    <div class="panel-heading"><strong>Similar Flicks</strong></div>
+                    <div class="panel-body"></div>
+                    <table class="table table-hover" id="recomendation">
+                        <tbody id="recomendation-results">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- NYTimes div -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary" id="review-panel">
+                    <div class="panel-heading"><strong>Some reviews</strong></div>
+                    <div class="panel-body">
+                        <table class="table table-hover" id="reviews">
+                            <thead>
+                                <tr>
+                                    <th>Review Titles</th>
+                                    <th>Movie Review Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="reviews-results">
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--end of panel-body-->
+                </div>
+            </div>
+        </div>
+        <!--end of panel-primary-->
+    </div>
+    <script src="https://apis.google.com/js/client.js" type="text/javascript"></script>
+    <script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/javascript/movieApp.js"></script>
+</body>
+
+</html>
